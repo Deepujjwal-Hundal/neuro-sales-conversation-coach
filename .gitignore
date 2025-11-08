@@ -82,3 +82,14 @@ Thumbs.db
 .env
 .env.local
 
+# Helper scripts and troubleshooting files (not for repository)
+run_server.bat
+run_server.ps1
+start_server.bat
+push_to_github.bat
+FIX_*.md
+*_INSTRUCTIONS.md
+GITHUB_*.md
+START_*.md
+PUSH_*.md
+
