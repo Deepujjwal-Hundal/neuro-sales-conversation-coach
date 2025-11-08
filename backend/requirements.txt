@@ -1,0 +1,14 @@
+numpy
+pandas
+flask
+flask-cors
+whisper
+pyannote.audio
+librosa
+transformers
+torch
+scikit-learn
+soundfile
+requests
+streamlit
+pyinstaller

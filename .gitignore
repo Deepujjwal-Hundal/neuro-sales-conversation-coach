@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Flask
+instance/
+.webassets-cache
+
+# React
+frontend/react-app/node_modules/
+frontend/react-app/build/
+frontend/react-app/.env.local
+frontend/react-app/.env.development.local
+frontend/react-app/.env.test.local
+frontend/react-app/.env.production.local
+frontend/react-app/npm-debug.log*
+frontend/react-app/yarn-debug.log*
+frontend/react-app/yarn-error.log*
+
+# PyInstaller
+backend/dist/
+backend/build/
+*.spec.bak
+
+# Temporary files
+temp/
+*.tmp
+*.log
+
+# Model files (too large for git)
+*.pt
+*.pth
+*.h5
+*.ckpt
+models/*.pt
+models/*.pth
+
+# Audio/Video files (example files can be kept small)
+example_audio/*.wav
+example_audio/*.mp3
+example_audio/*.mp4
+!example_audio/sample_call.wav
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+
