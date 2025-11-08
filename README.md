@@ -81,7 +81,25 @@ To create a standalone Windows executable (.exe) file for easier distribution:
    - Double-click `NeuroSalesCoach.exe`
    - The application will automatically open in your browser
 
-For detailed build instructions and troubleshooting, see [BUILD_EXE_INSTRUCTIONS.md](BUILD_EXE_INSTRUCTIONS.md).
+For detailed build instructions, see [BUILD_EXE_INSTRUCTIONS.md](BUILD_EXE_INSTRUCTIONS.md).
+
+## Running the Application
+
+To start the development server:
+
+1. **Start the backend**:
+   ```bash
+   cd backend
+   python launch.py
+   ```
+
+2. **Start the frontend** (in a new terminal):
+   ```bash
+   cd frontend/react-app
+   npm start
+   ```
+
+3. Open your browser and navigate to `http://localhost:3000` (React dev server) or `http://127.0.0.1:5000` (Flask server with built frontend).
 
 ## Example Audio
 An example audio file is included in the `example_audio` directory for testing purposes.
